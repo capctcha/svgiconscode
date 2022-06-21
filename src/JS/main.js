@@ -1,4 +1,4 @@
-window.document.addEventListener("DOMContentLoaded", function( e ) {
+window.document.addEventListener("DOMContentLoaded", function( e ) {//hhhhhhhhjcicigcgigugugccgicgicitcitiyiticyiiyiyc
     [].slice.call( this.querySelectorAll(".outer") ).forEach( function( elems ) {
         elems.addEventListener("click", function() {
             var sourceCode = "<span>" + this.querySelector(".inner").innerHTML + "</span>";
